@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.watermelon{
+    background-color: #FD5B78;
+}
+
+.mint{
+    background-color: #AAF0D1;
+}
+
+.mellow{
+    background-color: #FFFF66;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}
+
+.purple{
+    background-color: #9b59b6;
+}
+
+.grey{
+    background-color: #95a5a6;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.pink{
+    background-color: #ff9ff3;
+}
+
+.tangerine{
+    background-color: #FF9966;
+}
+
+.lime{
+    background-color: #badc58;
+}
+
+.black{
+    background-color: #2d3436;
+}
+
+.white{
+    background-color: #ecf0f1;
+}
+
+.col{
+    min-height: 100px;
+    float: left;
+    padding: 12px;
+}
+
+.pageContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col12{
+    width: 100%;
+}
+
+.col11{
+    width: 91.66%
+}
+
+.col10{
+    width: 83.33%;
+}
+
+.col9{
+    width: 75%
+}
+
+.col8{
+    width: 66.66%
+}
+
+.col7{
+    width: 58.33%;
+}
+
+.col6{
+    width: 50%;
+}
+
+.col5{
+    width: 41.66%
+}
+
+.col4{
+    width: 33.33%
+}
+
+.col3{
+    width: 25%;
+}
+
+.col2{
+    width: 16.67%
+}
+
+.col1{
+    width: 8.33%;
+}
+
+.row:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.columns{
+    width: 100%;
+    height: 900px;
+    float: none;
+}
+
+.row1{
+  width: 25%;
+  height: 900px;
+  border-right: 5px solid black;
+  background-color: #FFFF66;
+}
+
+.row2{
+  width: 50%;
+  height: 900px;
+  margin: -900px 360px;
+  border-right: 5px solid black;
+  background-color: #FF6EFF;
+  position: relative;
+}
+
+.row3{
+  
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 5px solid black;
+    float: none;
+
+}
+
+.headerblock{
+    height: 320px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+.nav:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.titleblock{
+    height: 100px;
+    width: 20%;
+    margin: 170px 50px;
+    border: 5px solid black;
+    float: left;
+}
+
+
+
+@media screen and (max-width:800px){
+/*
+    when the viewport is between 0px and 800px
+    Only change what needs to be changed.
+*/
+    body{
+        background-color: white;
+    }
+
+    .box{
+        float: none;
+        width: 100%;
+    }
+
+
+    .logo{
+        float: none;
+        width: 100%;
+    }
+
+    .navCenter{
+        float: none;
+        width: 100%;
+    }
+
+    .list{
+        float: none;
+        width: 100%;
+    }
+
+    .colS12{
+        width: 100%;
+    }
+
+    .colS11{
+        width: 91.66%
+    }
+
+    .colS10{
+        width: 83.33%;
+    }
+
+    .colS9{
+        width: 75%
+    }
+
+    .colS8{
+        width: 66.66%
+    }
+
+    .colS7{
+        width: 58.33%;
+    }
+
+    .colS6{
+        width: 50%;
+    }
+
+    .colS5{
+        width: 41.66%
+    }
+
+    .colS4{
+        width: 33.33%
+    }
+
+    .colS3{
+        width: 25%;
+    }
+
+    .colS2{
+        width: 16.67%
+    }
+
+    .colS1{
+        width: 8.33%;
+    }
+
+}
